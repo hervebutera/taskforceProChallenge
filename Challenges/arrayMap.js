@@ -1,10 +1,10 @@
 const arrayMap = (array, targetSum) => {
     let pointer1 = 0;
 
-    // A sum value holding current contiguous sub array's sum for comparison with targetUm
+    // A sum value holding current contiguous sub array's sum for comparison with targetSum
     let currentSum = 0;
   
-    // Loop through array to add elements to the currentSum unti it equals the target sum
+    // Loop through array to add elements to the currentSum until it equals the targetSum
     for (let pointer2 = 0; pointer2 < array.length; pointer2++) {
       currentSum += array[pointer2];
   

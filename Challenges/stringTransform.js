@@ -1,4 +1,4 @@
-const transformString = (inputString) => {
+const stringTransform = (inputString) => {
     const length = inputString.length;
   
     // Reverse string and replace characters by ASCII code when length is divisible by 3 and 5 
@@ -23,8 +23,8 @@ const transformString = (inputString) => {
   }
   
   // Examples
-  console.log("Hamburger returns:", transformString("Hamburger")); 
-  console.log("Pizza returns:", transformString("Pizza")); 
-  console.log("Chocolate Chip Cookie returns:", transformString("Chocolate Chip Cookie")); 
-  console.log("FifteenCharacters returns:", transformString("FifteenCharacters")); 
+  console.log("Hamburger returns:", stringTransform("Hamburger")); 
+  console.log("Pizza returns:", stringTransform("Pizza")); 
+  console.log("Chocolate Chip Cookie returns:", stringTransform("Chocolate Chip Cookie")); 
+  console.log("FifteenCharacters returns:", stringTransform("FifteenCharacters")); 
   
